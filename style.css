@@ -1,7 +1,62 @@
+/* Border box */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+
+/* Quizbox */
+section {
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
 /* Hero Image */
 .jumbotron {
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(28, 28, 28, 0.17), #000000ba), url("https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1825&q=80");
     background-size: cover;
     color: white;
+    margin: 0px;
+}
+
+.btn {
+    color: white;
+    background-color: #495057;
+    padding: 15px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-grid {
+    display: grid;
+}
+
+.start-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 2rem;
+
+}
+
+.hide {
+    display: none;
+}
+
+#questionBox {
+    display: inline-block;
+    box-shadow: 0px 0px 10px grey;
+    background-color: white;
+    padding: 3em;
 }
