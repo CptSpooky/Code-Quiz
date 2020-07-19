@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Code Quiz</title>
+        <title>Its ya boi, Quiz</title>
 
         <!-- CSS, Javascript and Bootstrap links -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -16,7 +16,7 @@
         <!--Hero section-->
         <div class="jumbotron jumbotron-fluid" role="figure">
             <div class="container pad">
-            <h1 class="display-4 display-4Center">Code Quiz</h1>
+            <h1 class="display-4 display-4Center">Its Ya Boi, Quiz</h1>
             </div>
         </div>
 
@@ -30,9 +30,28 @@
                     <div class="btn">Answer 3</div>
                     <div class="btn">Answer 4</div>
                 </div>
-                <div class="controls">
-                    <button id="startBtn" class="start-btn btn">Start</button>
+                <div class = "row">
+                    <div class = "col-md-3">
+                        <div class="feedback"></div>
+                    </div>
+                    <div class = "col-md-7"></div>
+                    <div class = "col-md-2">
+                        <div class="timer">00</div>
+                    </div>
                 </div>
+            </div>
+            <div class="controls">
+                <button id="startBtn" class="start-btn btn">Start</button>
+            </div>
+            <div id="finalScore" class="hide">
+                <p id="scoreCount"></p>
+                <div class="form-group">
+                    <input type="name" class="form-control" id="yourName" aria-describedby="name" placeholder="Write Your Initials Here">
+                    <button id="submitBtn" class="submit-btn btn">Submit</button>
+                </div>
+                <h3>High Scores<hr></h3>
+                <ul class="high-scores"></ul>
+                <button id="resetBtn" class="reset-btn btn hide">Reset Quiz</button>
             </div>
         </section>
         
@@ -42,5 +61,7 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Bootstrap CDN -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+         <!-- JS file -->
+        <script src="./script.js" ></script>
     </body>     
 </html>

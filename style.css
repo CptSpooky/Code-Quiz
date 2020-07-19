@@ -15,6 +15,13 @@ section {
     height: 100vh;
 }
 
+ul {
+    margin-top: 3em;
+}
+
+h3 {
+    font-size: 2rem;
+}
 
 
 /* Hero Image */
@@ -24,6 +31,7 @@ section {
     background-size: cover;
     color: white;
     margin: 0px;
+    width: 100vw; 
 }
 
 .btn {
@@ -41,6 +49,8 @@ section {
 
 .btn-grid {
     display: grid;
+    justify-items: center;
+    margin-top: 2em;
 }
 
 .start-btn {
@@ -50,8 +60,42 @@ section {
 
 }
 
+.submit-btn {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 150px;
+    margin-top: 0px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.form-control {
+    margin: 1em;
+    margin-left: 0px;
+}
+
+.feedback {
+    display: flex;
+    padding-top: 45px;
+    color: grey;
+    justify-content: flex-start;
+}
+
+.timer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 45px;
+    color: grey;
+}
+
 .hide {
-    display: none;
+    display: none !important;
 }
 
 #questionBox {
@@ -59,4 +103,13 @@ section {
     box-shadow: 0px 0px 10px grey;
     background-color: white;
     padding: 3em;
+    text-align: center;
+}
+
+
+#finalScore p{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 3em;
 }
