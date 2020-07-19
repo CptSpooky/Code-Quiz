@@ -1,11 +1,11 @@
-# Quiz
+# Quiz 
 
 ## Objective
-Refractor given html and css to create better accessibility and apply best practices
+Create a timed multiple choice quiz that stores scores. `<nav>`
 
 ## Description 
 
-Semantic code is used to provide accessibility to users by giving meaning to elements for screen readers to translate. Semantic elements like `<nav>` `<header>` `<figure>` `<section>` `<aside>` and `<footer>`, as well as providing `<alt>` tags to images helps screen readers that use machine learning and AI make sense of the page. 
+S
 
 _Semantic element example:_
 ![image semantic](https://user-images.githubusercontent.com/66426144/85484593-22fd4680-b595-11ea-9423-b470cb840816.png)
