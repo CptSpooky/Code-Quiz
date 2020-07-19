@@ -85,7 +85,7 @@ function setNextQuestion(){
 
 // Question setter and sorter
 function showQuestion(question){
-    questionElement.innerText = question.question; // question. is the value we passed into the parameter
+    questionElement.innerText = question.question; // question. is the value passed into the parameter, .question is the property of the questions array
     answerButtonsEl.innerHTML = ''; //wiping it clear to put new question in 
     question.answers.sort((a, b) => { // fuctionally the same as writing function (a, b) compares a to b, expects negative or positive number to sort
         return Math.random() - 0.5; // 50% of time will either be negative or positive, therefore list will be sorted randomly
